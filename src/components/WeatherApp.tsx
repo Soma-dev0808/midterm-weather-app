@@ -24,6 +24,7 @@ const WeatherApp = () => {
       setError(null);
     } catch (error) {
       setError("Weather not found.");
+      setWeather(null);
     }
   };
 
